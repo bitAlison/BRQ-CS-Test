@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{A16A27B6-2775-491B-B4A3-509EEE737F78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibTrade", "LibTrade\LibTrade.csproj", "{08FFBEC5-E54A-4F60-9AA1-23A17D2BC015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsTrade", "WindowsFormsTrade\WindowsFormsTrade.csproj", "{0E4001BE-8032-4CE2-9CE2-83DBEDECD180}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "T-SQL", "T-SQL", "{3A7BD97F-345E-4C27-9B5D-3F612C6FD5F4}"
+	ProjectSection(SolutionItems) = preProject
+		T-SQL\TradeDb.sql = T-SQL\TradeDb.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A16A27B6-2775-491B-B4A3-509EEE737F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16A27B6-2775-491B-B4A3-509EEE737F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16A27B6-2775-491B-B4A3-509EEE737F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16A27B6-2775-491B-B4A3-509EEE737F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08FFBEC5-E54A-4F60-9AA1-23A17D2BC015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FFBEC5-E54A-4F60-9AA1-23A17D2BC015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FFBEC5-E54A-4F60-9AA1-23A17D2BC015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FFBEC5-E54A-4F60-9AA1-23A17D2BC015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4001BE-8032-4CE2-9CE2-83DBEDECD180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4001BE-8032-4CE2-9CE2-83DBEDECD180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4001BE-8032-4CE2-9CE2-83DBEDECD180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4001BE-8032-4CE2-9CE2-83DBEDECD180}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3501E691-E7B9-445F-8421-349D67E44AD7}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ansrock.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Database\\Database.csproj
+		SccProjectName1 = Database
+		SccLocalPath1 = Database
+		SccProjectUniqueName2 = LibTrade\\LibTrade.csproj
+		SccProjectName2 = LibTrade
+		SccLocalPath2 = LibTrade
+		SccProjectUniqueName3 = WindowsFormsTrade\\WindowsFormsTrade.csproj
+		SccProjectName3 = WindowsFormsTrade
+		SccLocalPath3 = WindowsFormsTrade
+	EndGlobalSection
+EndGlobal
